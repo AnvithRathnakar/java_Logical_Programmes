@@ -15,7 +15,7 @@ public class Pgm152_Fibanacci_Series {
 		System.out.println("The Fibanacci Series is:");
 		System.out.println(fib1);
 		System.out.println(fib2);
-		for (int i = 1; i <=range; i++) {
+		for (int i = 1; i <= range; i++) {
 			int fib3 = fib1 + fib2;
 			fib1 = fib2;
 			fib2 = fib3;

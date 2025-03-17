@@ -14,8 +14,8 @@ public class Pgm131_Bubble_Sort_Using_Scanner_Class {
 		}
 		sc.close();
 		System.out.println("The sorted Array is:");
-		for (int i = 0; i < arr.length-1; i++) {
-			for (int j = 0; j < arr.length-1; j++) {
+		for (int i = 0; i < arr.length - 1; i++) {
+			for (int j = 0; j < arr.length - 1; j++) {
 				if (arr[j] > arr[j + 1]) {
 					int temp = arr[j];
 					arr[j] = arr[j + 1];

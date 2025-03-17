@@ -5,13 +5,13 @@ public class Pgm039_Compare_Two_String_Values {
 		String ಅ = "ಆಕಸ್ಮಿಕ";
 		String ಇ = "ಆಕಸ್ಮಿಕ";
 		System.out.println(ಅ.equals(ಇ));
-		
+
 		String ಉ = "ಆಕಸ್ಮಿಕ";
 		String ಎ = "ಶಬ್ಧವೇಧಿ";
 		System.out.println(ಉ.equals(ಎ));
-		
+
 		String s = "kaviratna kalidasa";
-		String s1 ="KAVIRATNA KALIDASA";
+		String s1 = "KAVIRATNA KALIDASA";
 		System.out.println(s.equalsIgnoreCase(s1));
 	}
 }
